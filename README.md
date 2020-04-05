@@ -4,14 +4,14 @@ direct radiator electrodynamic loudspeaker systems. It evaluates the absolute lo
 and electrical impedance as functions of frequency. The program listing, typical input data, and an
 example of the program’s output are provided.
 
-## REFERENCE:
+## REFERENCE
 
 Lampton, Michael L. (1972). Program WOOF: A Numerical
 Evaluator of Loudspeaker Systems. IEEE Transactions on
 Audio and Electroacoustics, Vol. AU-20, No. 5, December
 1972, pages 364-366.
 
-## ABSTRACT FROM ABOVE JOURNAL PAPER:
+## ABSTRACT FROM ABOVE JOURNAL PAPER
 
 A Fortran language computer program is described that evaluates
 the absolute low-frequency response and electrical impedance
@@ -23,7 +23,7 @@ and the program providing the modified response plots. The
 program listing, typical input data, and an example of the
 program’s output are shown.
 
-## NOTES:
+## NOTES
 
 The program WOOF77 is a modified version of program WOOF. The
 main changes relate to WOOF's conversion to use Fortran 77.
