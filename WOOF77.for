@@ -37,14 +37,14 @@ C impedance responses are listed for the user to study if desired.
 C DECLARATION OF VARIABLES.
 
       CHARACTER MATRIX(99,29),MK(3)
-      REAL A1,V,FAR,S1,BL,R,Q0
-      REAL A,B,C,D,W,FR,R2,PI
-      REAL M,MWOOF,M2,M2OPT,ASYMP,FH,REM,S2,S,Q,R1,X1,RRAD
-      REAL RESP(99),ZEL(99)
-      REAL SPLDB,IMPOHM
-      INTEGER I,IFREQ,LOSS,ILEVEL,ISPL,IZ,IY
-      INTEGER JY(4),JZ(4),J(11)
-      COMPLEX F,Z1
+      REAL*4    A1,V,FAR,S1,BL,R,Q0
+      REAL*4    A,B,C,D,W,FR,R2,PI
+      REAL*4    M,MWOOF,M2,M2OPT,ASYMP,FH,REM,S2,S,Q,R1,X1,RRAD
+      REAL*4    RESP(99),ZEL(99)
+      REAL*4    SPLDB,IMPOHM
+      INTEGER*4 I,IFREQ,LOSS,ILEVEL,ISPL,IZ,IY
+      INTEGER*4 JY(4),JZ(4),J(11)
+      COMPLEX*8 F,Z1
 
       DATA MK(1),MK(2),MK(3)/' ','x','o'/
       DATA JY/100,90,80,70/
